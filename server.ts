@@ -6,7 +6,7 @@ import { createServer as createViteServer } from 'vite';
 
 dotenv.config();
 
-const PORT = 3000;
+const PORT = Number(process.env.PORT) || 3000;
 
 // Lazy initialization for GoogleGenAI
 function getGenAIClient(): GoogleGenAI {
