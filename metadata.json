@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix Personal-Gemini-Journal",
+  "description": "Personal Gemini Journal - User-authenticated AI reflection and journaling studio powered by Firebase Auth, Cloud Firestore, and Gemini 3.6 Flash on Google Cloud.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
